@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <!-- `viewport-fit=cover` y `user-scalable=no` porque la aplicación se usa en un
+       móvil, a bordo, y un zoom accidental al pulsar dos veces molesta más que ayuda. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f3b57">
+  <title>Inspección técnica de embarcaciones</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icono.svg" type="image/svg+xml">
+  <!-- El iPhone solo instala con un PNG cuadrado; las esquinas las redondea él. -->
+  <link rel="apple-touch-icon" href="./icono-180.png">
+  <meta name="apple-mobile-web-app-title" content="ITB">
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <main id="app">
+    <p class="cargando">Cargando…</p>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
